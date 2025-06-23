@@ -414,7 +414,7 @@ export default function ServiceDetailPage({ params }) {
                 <div className="space-y-4">
                   {service.testimonials.map((testimonial, index) => (
                     <div key={index} className="bg-[#112B45] p-4 rounded-lg border border-white/10">
-                      <p className="italic mb-2">"{testimonial.content}"</p>
+                      <p className="italic mb-2">{testimonial.content}</p>
                       <p className="font-semibold">
                         {testimonial.name}
                         {testimonial.company && (

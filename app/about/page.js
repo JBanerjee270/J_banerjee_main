@@ -210,7 +210,7 @@ const AboutPage = () => {
             
             <div className="space-y-4 mb-8">
               <p className="text-gray-700 leading-relaxed">
-                As the cornerstone of one of the best law firms in the industry, Jaya's dedication to excellence and unwavering commitment to justice have earned her widespread acclaim and admiration. In the realm of trademark law, Jaya Banerjee is a formidable force, adept at navigating the intricacies of intellectual property rights with finesse.
+                As the cornerstone of one of the best law firms in the industry, Jayas dedication to excellence and unwavering commitment to justice have earned her widespread acclaim and admiration. In the realm of trademark law, Jaya Banerjee is a formidable force, adept at navigating the intricacies of intellectual property rights with finesse.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Her keen insight and meticulous approach ensure that clients receive unparalleled guidance in protecting their valuable trademarks, safeguarding their brand identity, and mitigating risks in an ever-evolving legal landscape.
@@ -417,7 +417,7 @@ const AboutPage = () => {
                   </div>
                 </div>
                 <p className="text-gray-600 italic mb-6">
-                  "J Banerjee & Co provided exceptional legal representation in our trademark case. Their attention to detail and strategic approach was impressive."
+                  J Banerjee & Co provided exceptional legal representation in our trademark case. Their attention to detail and strategic approach was impressive.
                 </p>
                 <div className="flex gap-1 text-orange-400">
                   {[1, 2, 3, 4, 5].map((star) => (
