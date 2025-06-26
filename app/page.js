@@ -156,3 +156,69 @@ export default function Home() {
     </>
   );
 }
+
+
+ const metadata = {
+  title: "J Banerjee & Co Advocates | Best Criminal & IPR Lawyers in Kolkata",
+  description: "20+ years experienced criminal, civil, and IPR lawyers in Kolkata. Trusted for trademark registration, divorce cases, cheque bounce matters, and High Court litigation.",
+  keywords: [
+    "best criminal lawyer Kolkata",
+    "top divorce attorney Kolkata",
+    "trademark lawyer near me",
+    "High Court advocate West Bengal",
+    "civil litigation lawyer",
+    "cheque bounce case specialist",
+    "IPR attorney Kolkata",
+    "copyright registration lawyer",
+    "design protection legal services",
+    "family court advocate",
+    "property dispute lawyer",
+    "service matter attorney",
+    "writ petition lawyer",
+    "experienced advocates in Kolkata"
+  ].join(', '),
+  openGraph: {
+    title: "J Banerjee & Co Advocates | Criminal & IPR Lawyers in Kolkata",
+    description: "20+ years experienced legal firm specializing in criminal defense, IPR, civil litigation and family law matters in Kolkata High Court.",
+    url: "https://www.banerjeeadvocates.com",
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'J Banerjee & Co Advocates',
+    images: [
+      {
+        url: 'https://www.banerjeeadvocates.com/og-home.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'J Banerjee & Co Advocates - Kolkata Law Firm',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "J Banerjee & Co Advocates | Kolkata's Trusted Law Firm",
+    description: "Specializing in criminal law, IPR, civil litigation and family matters. 20+ years experience serving Kolkata and West Bengal.",
+    images: ['https://www.banerjeeadvocates.com/twitter-home.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.banerjeeadvocates.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+};

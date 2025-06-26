@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -8,9 +8,16 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 
 export default function TransparentNavbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false); // For desktop dropdown
-  const [mobileServicesOpen, setMobileServicesOpen] = useState(false); // For mobile dropdown
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   const services = [
     { slug: 'intellectual-property-rights', title: 'Intellectual Property Rights' },
@@ -20,7 +27,7 @@ export default function TransparentNavbar() {
     { slug: 'writs', title: 'Writs' },
     { slug: 'divorce-matters', title: 'Divorce Matters' },
     { slug: 'design-matters', title: 'Design Matters' },
-    { slug: 'cheque-bounce', title: 'Cheque Bounce Matters' }
+    { slug: 'cheque-bounce', title: 'Cheque Bounce Matters' },
   ];
 
   const navItems = [
@@ -28,7 +35,7 @@ export default function TransparentNavbar() {
     { label: 'About', href: '/about' },
     { label: 'Services', href: '/services', submenu: services },
     { label: 'Blog', href: '/blog' },
-    { label: 'Contact', href: '/contact' }
+    { label: 'Contact', href: '/contact' },
   ];
 
   const isActive = (href) => {
@@ -42,12 +49,10 @@ export default function TransparentNavbar() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-[#0D1B2A]/80 backdrop-blur-md border-b border-white/10 font-serif">
-      {/* Top Bar */}
       <div className="hidden sm:block text-center text-sm text-white py-1 bg-[#0D1B2A]/90 border-b border-white/10">
         Welcome To J Banerjee & Co Advocates – A Trusted Legal Partner in Kolkata.
       </div>
 
-      {/* Main Navbar */}
       <nav className="flex items-center justify-between px-6 md:px-20 py-4 text-white relative">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
@@ -145,7 +150,7 @@ export default function TransparentNavbar() {
                         className={`transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`}
                       />
                     </button>
-                    
+
                     {mobileServicesOpen && (
                       <div className="ml-4 mt-2 space-y-2">
                         {item.submenu.map((service) => (

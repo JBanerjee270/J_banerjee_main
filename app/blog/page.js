@@ -409,3 +409,56 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
+ const metadata = {
+  title: "Legal Blog | J Banerjee & Co Advocates - Expert Law Insights",
+  description: "Read our legal blog for expert analysis on criminal law, IPR, civil litigation, and family law matters in Kolkata. Stay updated with Indian legal developments.",
+  keywords: [
+    "criminal law blog",
+    "IPR legal updates",
+    "divorce law articles",
+    "civil litigation insights",
+    "trademark law analysis",
+    "Kolkata legal news",
+    "Indian law blog",
+    "legal expert opinions",
+    "court case studies",
+    "law firm blog",
+    "property dispute legal advice",
+    "cheque bounce case updates",
+    "High Court judgments analysis",
+    "legal rights in India"
+  ].join(', '),
+  openGraph: {
+    title: "Legal Insights Blog | J Banerjee & Co Advocates",
+    description: "Expert legal articles on criminal, civil, IPR and family law matters from Kolkata's trusted law firm.",
+    url: "https://www.banerjeeadvocates.com/blog",
+    type: 'website',
+    images: [
+      {
+        url: 'https://www.banerjeeadvocates.com/og-blog.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Legal Insights Blog - J Banerjee & Co',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Legal Blog | J Banerjee & Co Advocates",
+    description: "Expert analysis on criminal law, IPR, civil litigation and family law matters from Kolkata lawyers",
+    images: ['https://www.banerjeeadvocates.com/twitter-blog.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.banerjeeadvocates.com/blog',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+    },
+  }
+};

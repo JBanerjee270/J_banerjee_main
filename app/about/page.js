@@ -607,3 +607,53 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+ const metadata = {
+  title: "Advocate Jaya Banerjee | Best Criminal & Divorce Lawyer in Kolkata | High Court Attorney",
+  description: "Trusted criminal lawyer, divorce attorney, and High Court advocate in Kolkata with 20+ years experience. Expert trademark registration and litigation services. Free initial consultation.",
+  keywords: [
+    "best criminal lawyer in Kolkata",
+    "top divorce lawyer Kolkata",
+    "trademark attorney near me",
+    "High Court advocate West Bengal",
+    "experienced litigation lawyer",
+    "family court attorney Kolkata",
+    "IPR lawyer for trademark registration",
+    "cheque bounce case specialist",
+    "reputed civil lawyer Kolkata",
+    "legal consultation services",
+    "property dispute attorney",
+    "service matter lawyer",
+    "writ petition expert",
+    "design protection legal help",
+    "reliable law firm in Kolkata"
+  ].join(', '),
+  openGraph: {
+    title: "Advocate Jaya Banerjee | Criminal & Divorce Lawyer | Kolkata High Court",
+    description: "20+ years experienced lawyer handling criminal cases, divorce matters, and trademark litigation in Kolkata High Court. Free initial consultation available.",
+    url: "https://www.banerjeeadvocates.com/about",
+    type: 'profile',
+    profile: {
+      firstName: 'Jaya',
+      lastName: 'Banerjee',
+      gender: 'Female',
+    },
+    images: [
+      {
+        url: 'https://www.banerjeeadvocates.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Advocate Jaya Banerjee - Kolkata Lawyer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Advocate Jaya Banerjee | Kolkata's Trusted Lawyer",
+    description: "Specializing in criminal defense, divorce cases & trademark law. High Court registered advocate serving clients for 20+ years.",
+    images: ['https://www.banerjeeadvocates.com/twitter-card.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.banerjeeadvocates.com/about',
+  }
+};
+

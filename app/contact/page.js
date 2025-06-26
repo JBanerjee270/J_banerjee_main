@@ -217,3 +217,51 @@ export default function ContactPage() {
     </div>
   );
 }
+
+ const metadata = {
+  title: "Contact Us | J Banerjee & Co Advocates - Kolkata Law Firm",
+  description: "Get in touch with our legal experts for consultations. Contact our criminal, civil, and IPR lawyers in Kolkata via phone, email, or WhatsApp.",
+  keywords: [
+    "contact criminal lawyer Kolkata",
+    "divorce attorney contact",
+    "trademark lawyer consultation",
+    "High Court advocate contact",
+    "legal consultation Kolkata",
+    "law firm contact details",
+    "best lawyer in Kolkata contact",
+    "IPR attorney consultation",
+    "cheque bounce lawyer contact",
+    "property dispute legal help",
+    "service matter lawyer contact",
+    "writ petition consultation",
+    "family court advocate contact",
+    "emergency legal help Kolkata"
+  ].join(', '),
+  openGraph: {
+    title: "Contact J Banerjee & Co Advocates | Kolkata Lawyers",
+    description: "Reach our legal team for criminal, civil, IPR, and family law matters. Office in Kolkata with 20+ years experience.",
+    url: "https://www.banerjeeadvocates.com/contact",
+    type: 'website',
+    images: [
+      {
+        url: 'https://www.banerjeeadvocates.com/og-contact.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact J Banerjee & Co Advocates',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Contact Our Kolkata Law Firm | J Banerjee & Co",
+    description: "Get legal consultation for criminal, civil, IPR and family matters. Call +91 97482 31841 or message via WhatsApp.",
+    images: ['https://www.banerjeeadvocates.com/twitter-contact.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.banerjeeadvocates.com/contact',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
+};

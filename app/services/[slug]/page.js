@@ -520,3 +520,61 @@ export default function ServiceDetailPage({ params }) {
     </div>
   );
 }
+
+
+ const metadata = {
+  title: "Legal Services in Kolkata | Criminal, Divorce & Corporate Lawyers | J Banerjee & Co",
+  description: "Comprehensive legal services in Kolkata including criminal defense, divorce cases, IPR, civil litigation, and corporate law. 20+ years experienced advocates.",
+  keywords: [
+    "best criminal lawyer Kolkata",
+    "top divorce attorney Kolkata",
+    "trademark lawyer near me",
+    "High Court advocate West Bengal",
+    "civil litigation lawyer",
+    "cheque bounce case specialist",
+    "service matter attorney",
+    "writ petition lawyer",
+    "design protection legal services",
+    "family court advocate",
+    "property dispute lawyer",
+    "corporate legal services",
+    "experienced advocates in Kolkata",
+    "reputed law firm"
+  ].join(', '),
+  openGraph: {
+    title: "Legal Services in Kolkata | J Banerjee & Co Advocates",
+    description: "Specialized legal services including criminal law, divorce cases, civil litigation and corporate matters. Serving Kolkata for 20+ years.",
+    url: "https://www.banerjeeadvocates.com/services",
+    type: 'website',
+    images: [
+      {
+        url: 'https://www.banerjeeadvocates.com/og-services.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'J Banerjee & Co Legal Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Legal Services in Kolkata | J Banerjee & Co Advocates",
+    description: "Expert legal representation in criminal, family and corporate law matters. Contact our experienced advocates today.",
+    images: ['https://www.banerjeeadvocates.com/twitter-services.jpg'],
+  },
+  alternates: {
+    canonical: 'https://www.banerjeeadvocates.com/services',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  }
+};

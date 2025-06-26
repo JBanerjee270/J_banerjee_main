@@ -1,7 +1,9 @@
 "use client";
+
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { FiMapPin, FiPhone, FiMail, FiClock } from "react-icons/fi";
+import { useEffect, useState } from "react";
 
 const navLinks = [
   { label: "home", href: "/" },
@@ -12,7 +14,14 @@ const navLinks = [
 ];
 
 export default function Footer() {
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   const renderNavLink = (href, label) => {
     const isActive = pathname === href;
@@ -111,7 +120,7 @@ export default function Footer() {
               "Writs",
               "Divorce Matters",
               "Design Matters",
-              "Cheque Bounce Matters"
+              "Cheque Bounce Matters",
             ].map((service, i) => (
               <li key={i}>• {service}</li>
             ))}
