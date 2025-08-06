@@ -1,0 +1,4 @@
+User-agent: *
+allow: 
+sitemap: https://www.jbanerjee.online/sitemap.xml
+

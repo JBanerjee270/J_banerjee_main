@@ -22,7 +22,7 @@ import WhyOurFirm from './components/WhyOurFirm';
 
 const slides = [
   {
-    title: 'Trusted Legal',
+    title: 'Trust Legal',
     highlight: 'Solutions in Kolkata',
     description:
       'With over 20 years of experience, J Banerjee & Co Advocates delivers expert legal advice in Criminal Law, Trademark, Copyright, Design, and Civil Litigation.'
