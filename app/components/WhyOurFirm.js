@@ -74,7 +74,7 @@ const WhyOurFirm = () => {
                 <span className="text-orange-400 italic font-medium">In Kolkata</span>
               </h2>
               <p className="text-white/80 mb-4">
-                Meet Jaya Banerjee, a distinguished legal professional renowned for her expertise across various domains of law. With a stellar reputation in criminal, trademark, copyright, and design law, she leads J Banerjee & Co Advocates with precision and unwavering commitment to justice.
+                Meet Jaya Banerjee, a distinguished criminal lawyer in Kolkata renowned for her expertise across various domains of law. With a stellar reputation in criminal, trademark, copyright, and design law, she leads J Banerjee & Co Advocates with precision and unwavering commitment to justice.
               </p>
               <p className="text-white/60 mb-6">
                 From criminal defense to intellectual property rights, Jaya Banerjee’s exceptional insight and strategic thinking have earned the trust of over 1600+ clients. Her meticulous approach ensures every case is handled with care, clarity, and results.
