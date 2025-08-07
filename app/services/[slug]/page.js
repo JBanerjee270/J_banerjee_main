@@ -260,7 +260,7 @@ const servicesData = {
   ],
   seo: {
     title: "cheque bounce lawyer in kolkata | cheque bounce lawyers near me",
-    metaDescription: "Hire the best cheque bounce lawyer in Kolkata. Trusted cheque bounce lawyers near me to handle your case with expertise and care.",
+    metaDescription: "Top cheque bounce case lawyers in Kolkata. Get expert help under Section 138 of the NI Act for cheque dishonor, recovery & criminal proceedings.",
     keywords: "cheque bounce lawyer Kolkata, NI Act Section 138, cheque dishonor attorney, cheque case legal help",
     ogImage: "/cheque-bounce-og.jpg" // Optional: add image in `public` folder
   },
