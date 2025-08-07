@@ -240,7 +240,7 @@ const servicesData = {
     }
   },
   "cheque-bounce": {
-  title: "Cheque Bounce Cases",
+  title: "cheque bounce lawyer in kolkata | cheque bounce lawyers near me",
   description: "Expert cheque bounce case lawyers in Kolkata under Section 138 of the NI Act",
   longDescription: [
     "At J Banerjee & Co Advocates, we specialize in handling cheque dishonor cases under Section 138 of the Negotiable Instruments Act, 1881. With decades of experience, our firm offers strategic and time-bound legal remedies to individuals and businesses facing cheque bounce issues.",
@@ -259,8 +259,8 @@ const servicesData = {
     "Representation in Magistrate Courts"
   ],
   seo: {
-    title: "Cheque Bounce Lawyer Kolkata | Section 138 NI Act Legal Help",
-    metaDescription: "Top cheque bounce case lawyers in Kolkata. Get expert help under Section 138 of the NI Act for cheque dishonor, recovery & criminal proceedings.",
+    title: "cheque bounce lawyer in kolkata | cheque bounce lawyers near me",
+    metaDescription: "Hire the best cheque bounce lawyer in Kolkata. Trusted cheque bounce lawyers near me to handle your case with expertise and care.",
     keywords: "cheque bounce lawyer Kolkata, NI Act Section 138, cheque dishonor attorney, cheque case legal help",
     ogImage: "/cheque-bounce-og.jpg" // Optional: add image in `public` folder
   },
