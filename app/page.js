@@ -159,7 +159,7 @@ export default function Home() {
 
 
  const metadata = {
-  title: "J Banerjee & Co Advocates | Best Criminal & IPR Lawyers in Kolkata",
+  title: "Best Criminal & IPR Lawyers in Kolkata | J Banerjee & Co Advocates",
   description: "20+ years experienced criminal, civil, and IPR lawyers in Kolkata. Trusted for trademark registration, divorce cases, cheque bounce matters, and High Court litigation.",
   keywords: [
     "best criminal lawyer Kolkata",
