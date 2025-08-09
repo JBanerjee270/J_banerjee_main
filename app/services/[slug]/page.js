@@ -8,10 +8,11 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 
 const servicesData = {
   "intellectual-property-rights": {
-    title: "Intellectual Property Rights",
+    title: "Intellectual Property Rights Services Kolkata",
+    heading: "Intellectual Property Rights Services Kolkata | IPR Servces Kolkata", 
     description: "Expert trademark, copyright, and patent legal services in Kolkata | J Banerjee & Co Advocates",
     longDescription: [
-      "At J Banerjee & Co Advocates, we provide comprehensive intellectual property legal solutions with 20+ years of experience. Our IPR services protect your innovations, creative works, and brand identity through strategic legal frameworks.",
+      "At J Banerjee & Co Advocates, we provide comprehensive intellectual property rights services in Kolkata with 20+ years of experience. Our IPR services in Kolkata protect your innovations, creative works, and brand identity through strategic legal frameworks.",
       "We've successfully handled over 200 IP cases, helping businesses and individuals secure their intellectual assets. Our expertise covers all aspects of IP law including registration, licensing, and infringement litigation."
     ],
     icon: "📜",
@@ -27,8 +28,8 @@ const servicesData = {
       "Domain name disputes"
     ],
     seo: {
-      title: "IPR Lawyer in Kolkata | Trademark & Copyright Attorney | J Banerjee & Co",
-      metaDescription: "Expert intellectual property rights legal services in Kolkata. Protect your trademarks, copyrights and patents with our 20+ years experienced IPR lawyers.",
+      title: "Intellectual Property Rights Services Kolkata | IPR Servces Kolkata",
+      metaDescription: "Leading IPR Services Kolkata. Secure your innovations with our expert Intellectual Property Rights Services in Kolkata.",
       keywords: "IPR lawyer Kolkata, trademark attorney, copyright lawyer, patent attorney, intellectual property rights",
       ogImage: "/ipr-law-og.jpg"
     },
@@ -60,10 +61,11 @@ const servicesData = {
 
   "civil-cases": {
     title: "Civil Litigation",
+    heading: "Civil law firm Kolkata",
     description: "Experienced civil lawyers in Kolkata handling property disputes, contracts, and personal injury cases",
     longDescription: [
       "Our civil litigation team at J Banerjee & Co Advocates has successfully resolved over 150 civil disputes through negotiation, mediation, and courtroom advocacy.",
-      "With deep understanding of civil procedure codes and 20+ years of practice in Kolkata courts, we provide strategic representation for both plaintiffs and defendants."
+      "With deep understanding of civil procedure codes and 20+ years of practice in Kolkata courts, we provide strategic representation for both plaintiffs and defendants.We are one of the best civil law firm in Kolkata."
     ],
     icon: "⚖️",
     image: "/civil.webp",
@@ -78,7 +80,7 @@ const servicesData = {
       "Specific performance suits"
     ],
     seo: {
-      title: "Civil Lawyer in Kolkata | Property & Contract Dispute Attorney",
+      title: "Civil Lawyer in Kolkata | Civil law firm Kolkata",
       metaDescription: "Expert civil litigation services in Kolkata. Resolve property disputes, contract conflicts with our experienced civil lawyers.",
       keywords: "civil lawyer Kolkata, property dispute lawyer, contract lawyer, civil litigation attorney",
       ogImage: "/civil.webp"
@@ -99,10 +101,11 @@ const servicesData = {
   },
   "criminal-matters": {
     title: "Criminal Defense",
+    heading: "Best Criminal Lawyer Kolkata | Criminal Law Firm Kolkata",
     description: "Top criminal defense lawyers in Kolkata with 20+ years experience handling complex criminal cases",
     longDescription: [
-      "J Banerjee & Co Advocates provides aggressive criminal defense representation across all levels of the judicial system in Kolkata.",
-      "Our criminal law practice has successfully defended clients in over 100 cases involving charges ranging from white-collar crimes to serious felonies."
+      "J Banerjee & Co Advocates provides aggressive criminal defense representation across all levels of the judicial system in Kolkata.Criminal Lawyer Kolkata plays an pivotal role as advocates to ensure the principles of fairness, equity and human diginity prevail in the pursuit of truth and accountability.",
+      "Our criminal law practice has successfully defended clients in over 100 cases involving charges ranging from white-collar crimes to serious felonies. Criminal law firm in Kolkata serve as a testament to our collective commitment to accountability, fairness, and the rule of law."
     ],
     icon: "🔒",
     image: "/criminal.webp",
@@ -131,10 +134,11 @@ const servicesData = {
   },
   "services-matters": {
     title: "Service Matters",
+    heading: "Service Matter Advocate Kolkata | Service Matter Lawyer Kolkata",
     description: "Expert legal representation for government and private sector service matters in Kolkata",
     longDescription: [
-      "Our firm specializes in service matter litigation involving employment disputes, disciplinary proceedings, and service benefits.",
-      "With particular expertise in public sector service matters, we've represented over 50 clients in various service tribunals and high courts."
+      "Our firm specializes in service matter litigation involving employment disputes, disciplinary proceedings, and service benefits. Our experienced Service Matter Advocate Kolkata team specializes in handling complex service-related issues in tribunals and High Court with precision and dedication.",
+      "With particular expertise in public sector service matters, we've represented over 50 clients in various service tribunals and high courts. As a trusted Service Matter Lawyer Kolkata, we are committed to delivering strategic legal solutions tailored to each case."
     ],
     icon: "🏛️",
     image: "/services.webp",
@@ -157,10 +161,11 @@ const servicesData = {
   },
   "writs": {
     title: "Writ Petitions",
-    description: "Specialized writ petition lawyers in Kolkata for constitutional remedies and judicial review",
+    heading: "writ petition lawyer in Kolkata",
+    description: "Expert writ petition filing services in Calcutta High Court. Protect your constitutional rights with our experienced lawyers.",
     longDescription: [
-      "Our firm has filed over 75 successful writ petitions in Calcutta High Court, protecting clients' fundamental rights and challenging unlawful administrative actions.",
-      "We specialize in Article 226 petitions for immediate judicial intervention in matters requiring urgent resolution."
+      "As a leading writ petition lawyer in Kolkata, our firm has filed over 75 successful writ petitions in Calcutta High Court, protecting clients' fundamental rights and challenging unlawful administrative actions.",
+      "We specialize in Article 226 petitions for immediate judicial intervention in matters requiring urgent resolution.If you're seeking swift legal remedy, consult an experienced writ petition lawyer in Kolkata for effective representation."
     ],
     icon: "✍️",
     image: "/writs.webp",
@@ -175,18 +180,19 @@ const servicesData = {
       "Administrative law challenges"
     ],
     seo: {
-      title: "Writ Petition Lawyer Kolkata | Constitutional Remedies Attorney",
+      title: "Writ Petition Lawyer Kolkata",
       metaDescription: "Expert writ petition filing services in Calcutta High Court. Protect your constitutional rights with our experienced lawyers.",
       keywords: "writ petition lawyer Kolkata, constitutional lawyer, high court attorney",
       ogImage: "/writ-law-og.jpg"
     }
   },
   "divorce-matters": {
-    title: "Divorce & Family Law",
+    title: "Divorce Lawyers in Kolkata | Divorce lawyer Near Me",
+    heading: "Divorce Lawyers in Kolkata | Divorce lawyer Near Me",
     description: "Compassionate yet strong divorce lawyers in Kolkata handling all family law matters",
     longDescription: [
-      "We approach divorce and family law matters with sensitivity while aggressively protecting our clients' rights in child custody, alimony and property division.",
-      "Our family law practice has resolved over 60 divorce cases through both negotiated settlements and courtroom litigation."
+      "As experienced Divorce Lawyers in Kolkata, We approach divorce and family law matters with sensitivity while aggressively protecting our clients' rights in child custody, alimony and property division.",
+      "If you're searching for a trusted divorce lawyer near me, Our family law practice has resolved over 60 divorce cases through both negotiated settlements and courtroom litigation."
     ],
     icon: "💔",
     image: "/div.webp",
@@ -215,10 +221,11 @@ const servicesData = {
   },
   "design-matters": {
     title: "Design Protection",
-    description: "Specialized design registration and protection legal services in Kolkata",
+    heading: "Patent Lawyer Kolkata | Trademark Attorney Kolkata",
+    description: "Protect your innovations and brands with the best Patent Lawyer Kolkata and Trademark Attorney Kolkata. Quick filing and expert advice.",
     longDescription: [
-      "We provide comprehensive legal services for design registration under the Designs Act, 2000 and enforcement against infringement.",
-      "Our team has successfully registered over 30 industrial designs and handled multiple design infringement cases."
+      "We provide comprehensive legal services for design registration under the Designs Act, 2000 and enforcement against infringement. If you're looking for a trusted Patent Lawyer Kolkata, our team offers expert guidance on patent filing, protection, and litigation.",
+      "Our team has successfully registered over 30 industrial designs and handled multiple design infringement cases.For brand protection, our experienced Trademark Attorney Kolkata ensures smooth trademark registration and enforcement against misuse."
     ],
     icon: "🎨",
     image: "/design.webp",
@@ -240,8 +247,9 @@ const servicesData = {
     }
   },
   "cheque-bounce": {
-  title: "cheque bounce lawyer in kolkata",
-  description: "Expert cheque bounce case lawyers in Kolkata under Section 138 of the NI Act",
+  title: "Cheque bounce lawyer in kolkata",
+  heading: "Cheque bounce lawyer in kolkata",
+  description: "Looking for a reliable cheque bounce lawyer in Kolkata? We offer fast and effective legal solutions for dishonoured cheque matters.",
   longDescription: [
     "At J Banerjee & Co Advocates, we specialize in handling cheque dishonor cases under Section 138 of the Negotiable Instruments Act, 1881. With decades of experience, our firm offers strategic and time-bound legal remedies to individuals and businesses facing cheque bounce issues.",
     "We have successfully represented clients in over 90 cheque bounce matters, including recovery proceedings, settlement negotiations, and criminal prosecution."
@@ -356,7 +364,7 @@ export default function ServiceDetailPage({ params }) {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              {service.title}
+              {service.heading}
             </h1>
             
             <div className="mb-8">
