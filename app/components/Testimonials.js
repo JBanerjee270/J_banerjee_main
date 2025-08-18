@@ -6,21 +6,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 const testimonials = [
   {
     quote:
-      "Absolutely professional team. Their commitment to excellence and support throughout my legal process was incredible. Highly recommend!",
-    author: 'Jonathan M.',
-    role: 'Client - Business Law',
+      "I Searched for the best divorce lawyer in Kolkata on Google and found J Banerjee so that I could help my cousin with her divorce problem, my cousin was in lot of confusion and had no idea what to do next. J Banerjee provided her full attention to this case and made the whole process easy for my cousin. She handled the case very professionally. We truly appreciate her skills and would recommend her to anyone who is looking for a good lawyer.",
+    author: 'kankana roy',
+    role: 'Client',
   },
   {
     quote:
-      "I had a great experience. They guided me through every step and ensured I was informed and comfortable. Thank you so much!",
-    author: 'Priya Sharma',
-    role: 'Client - Family Law',
+      "I was struggling with a legal issue when I turned to J Banerjee a dedicated lawyer from High court in Kolkata. She was incredibly knowledgeable, patient in handling my case. Her dedication and strategic thinking gave me confidence, and she kept me informed at every step. Thanks to her expertise, we achieved a favorable outcome. I highly recommend her to anyone seeking a skilled and reliable lawyer.",
+    author: 'Akbar Hossain',
+    role: 'Client ',
   },
   {
     quote:
-      "Their service exceeded all expectations. Responsive, sharp, and very reliable. Will work with them again for sure!",
-    author: 'Arun Patel',
-    role: 'Client - Compliance Law',
+      "J Banerjee is an excellent lawyer! she assisted my brother with trademark matters for his business. she made whole process simple and hassle free. One of the Best lawyer in kolkata! Thank you so much, highly recommended",
+    author: 'Payel Mitra',
+    role: 'Client',
   },
 ];
 
