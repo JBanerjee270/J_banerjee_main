@@ -201,8 +201,9 @@ export default function ContactPage() {
             
             {/* Map */}
             <div className="h-96 rounded-lg overflow-hidden shadow-lg border border-white/10">
+              
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.107281118644!2d88.3578743153625!3d22.5724859851819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a7f1318a6b%3A0x6a1a5d5b5e5b5e5b!2s16%20Dr.%20Suresh%20Sarkar%20Rd%2C%20Kolkata%2C%20West%20Bengal%20700014!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4882.116192763865!2d88.36766042524616!3d22.555534449105856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02774ef1630eb3%3A0x6846c5070a6366d2!2sJ%20Banerjee%20%26%20Co%2C%20Advocates%20%7C%20Best%20Trademarks%20lawyer%20in%20Kolkata%20%7C%20Divorce%20Lawyer%20In%20Kolkata!5e1!3m2!1sen!2sin!4v1755522329375!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
