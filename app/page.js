@@ -83,7 +83,7 @@ export default function Home() {
         </div>
 
         {/* Hero Section */}
-        <section className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-28 md:py-40">
+        <section className="relative h-screen z-10 flex flex-col items-center justify-center text-center px-6 py-28 md:py-40">
           <Image
             src="/bg.webp"
             alt="Legal Background"
@@ -118,14 +118,41 @@ export default function Home() {
             </motion.div>
           </AnimatePresence>
 
-          {/* Floating social icons */}
-          <div className="absolute left-6 top-1/2 -translate-y-1/2 flex flex-col gap-4">
-            {[Facebook, Twitter, Instagram, Youtube].map((Icon, i) => (
-              <a key={i} href="#" className="bg-white p-2 rounded-full shadow hover:scale-110 transition">
-                <Icon className="text-black w-5 h-5" />
-              </a>
-            ))}
-          </div>
+         {/* Floating social icons */}
+<div className="
+  absolute 
+  left-6 
+  top-1/2 
+  -translate-y-1/2 
+  flex-col 
+  gap-4 
+  hidden 
+  md:flex
+">
+  {[Facebook, Twitter, Instagram, Youtube].map((Icon, i) => (
+    <a
+      key={i}
+      href="#"
+      className="bg-white p-2 rounded-full shadow hover:scale-110 transition"
+    >
+      <Icon className="text-black w-5 h-5" />
+    </a>
+  ))}
+</div>
+
+{/* Mobile Social icons (below text) */}
+<div className="flex justify-center gap-4 mt-8 md:hidden">
+  {[Facebook, Twitter, Instagram, Youtube].map((Icon, i) => (
+    <a
+      key={i}
+      href="#"
+      className="bg-white p-2 rounded-full shadow hover:scale-110 transition"
+    >
+      <Icon className="text-black w-5 h-5" />
+    </a>
+  ))}
+</div>
+
 
           {/* Bottom Info Bar */}
           <div className="absolute bottom-4 w-full px-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-300 gap-2 sm:gap-6">
